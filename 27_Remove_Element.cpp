@@ -23,7 +23,8 @@ void printVector(vector<int> vec,int size){
 int main(){
     Solution s;
     vector<int> nums = {3,2,2,3};
-    int val = 3;
+    int val;
+    cin>>val;
     int k = s.removeElement(nums,val);
     printVector(nums,k);
     
